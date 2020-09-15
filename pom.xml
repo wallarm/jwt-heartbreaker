@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pingvin</groupId>
-    <artifactId>jwt-public-secrets</artifactId>
+    <artifactId>jwt-heartbreaker</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -49,7 +49,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.0.0</version>
+                <version>3.3.0</version>
                 <configuration>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
