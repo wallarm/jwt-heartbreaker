@@ -16,7 +16,7 @@ public class BurpExtender implements IBurpExtender {
         Config.loadConfig();
         JwtKeyProvider.loadKeys();
 
-        callbacks.setExtensionName("JSON Web Tokens Public Secrets");
+        callbacks.setExtensionName("JWT heartbreaker");
 
         JwtPublicSecretsTab jwtPublicSecretsTab = new JwtPublicSecretsTab(callbacks);
         callbacks.addSuiteTab(jwtPublicSecretsTab);
